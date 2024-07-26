@@ -32,6 +32,7 @@ public class StackTest02_VPS {
                 list.add(input.charAt(j));
             }
             isVPS = searchVPS(list);
+
             if (isVPS) {
                 System.out.println("YES");
             } else {
